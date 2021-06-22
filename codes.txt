@@ -1,0 +1,12 @@
+200 - OK
+201 - Created
+202 - Accepted (Requisição aceita, mas não terminou de processar)
+
+400 - Bad request
+401 - Unauthorized (Autenticação, temporário)
+403 - Forbidden (Autorização, tem caráter permanente)
+404 - Not found
+
+500 - Internal server error
+501 - Not implemented
+503 - Service Unvaiable - API executa, mas no momento está fora
