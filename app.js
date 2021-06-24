@@ -1,9 +1,9 @@
 const express = require('express')
 const app = express()
 const mongoose = require('mongoose')
+const config = require('./config/config')
 
-
-const url = 'mongodb+srv://username_admin:hidekosato@clusterapi.9ftg4.mongodb.net/myFirstDatabase?retryWrites=true&w=majority'
+const url = config.bd_string
 const options = {
 	poolSize: 5,
 	useNewUrlParser: true,
